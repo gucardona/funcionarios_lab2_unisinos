@@ -31,7 +31,7 @@ public class FuncionarioHorista extends Funcionario {
 			return salarioPorHora * horasSemanaisTrabalhadas;
 		
 		else if(horasSemanaisTrabalhadas > 40)
-			return (40 * salarioPorHora) + (horasSemanaisTrabalhadas - 40) * salarioPorHora * 1.5;
+			return (40 * salarioPorHora) + (horasSemanaisTrabalhadas - 40) * (salarioPorHora * 1.5);
 		
 		return -1;
 	}

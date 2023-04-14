@@ -10,10 +10,10 @@ public class FuncionarioHoristaTeste {
 		FuncionarioHorista fh_MaiorHoras = new FuncionarioHorista("Claudio", "092.445.123-09", 18, 50);
 		
 		System.out.println("Rendimento semanal do horista " + fh_MenorHoras.getNome() + " que trabalhou " + fh_MenorHoras.getHorasSemanaisTrabalhadas() +
-							"\nR$ " + fh_MenorHoras.getRendimentos());
+							"h\nR$ " + fh_MenorHoras.getRendimentos());
 		
 		System.out.println("Rendimento semanal do horista " + fh_MaiorHoras.getNome() + " que trabalhou " + fh_MaiorHoras.getHorasSemanaisTrabalhadas() +
-							"\nR$ " + fh_MaiorHoras.getRendimentos());
+							"h\nR$ " + fh_MaiorHoras.getRendimentos());
 		
 	}
 }
